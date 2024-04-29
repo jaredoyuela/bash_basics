@@ -18,7 +18,7 @@ echo "Is today the weekend?"
 day=$(date +%u)  # Get the day of the week (1-7, where 6 and 7 are weekend days)
 
 if [ $day -eq 6 ] || [ $day -eq 7 ]; then
-    echo "Today is the weekend!"
+    echo "Today is the weekend! Yayyyyyy"
 else
-    echo "Today is not the weekend."
+    echo "Today is not the weekend.Nooooooo"
 fi
